@@ -11,9 +11,7 @@ class Solution:
         
         for i in range((n//2)):
             for j in range(n):
-                temp = a[i][j]
-                a[i][j] = a[n-i-1][j]
-                a[n-i-1][j] = temp
+                a[i][j] , a[n-i-1][j] = a[n-i-1][j], a[i][j]
         return a
         # 147
         # 258
