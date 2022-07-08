@@ -5,11 +5,8 @@ class Solution:
         for i in Mat:
             temp.extend(i)
         temp.sort()
-        # print(temp)
-        idx=0
         for i in range(N):
             for j in range(N):
-                Mat[i][j]=temp[idx+j]
-            idx+=N
+                Mat[i][j]=temp[i*N+j]
         return Mat
         
