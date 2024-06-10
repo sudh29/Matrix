@@ -10,6 +10,10 @@
 
 [Sorted matrix](4_Sorted_matrix.py)
 
+[5 Maximum size rectangle](5_Maximum_size_rectangle.py)
+
+[Find a specific pair in matrix](6_Find_a_specific_pair_in_matrix.py)
+
 [Rotate by 90 degree anti](7_Rotate_by_90_degree_anti.py)
 
 [Kth element in Matrix](8_Kth_element_in_Matrix.py)
